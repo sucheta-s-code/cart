@@ -1,0 +1,8 @@
+import os
+
+#TO DO ENTER DATABASE CREDENTIALS 
+PG_USERNAME = os.environ.get("POSTGRES_USERNAME")
+PG_PASSWORD = os.environ.get("POSTGRES_PASSWORD")
+PG_HOST = os.environ.get("POSTGRES_HOST_NAME")
+PG_PORT = os.environ.get("POSTGRES_PORT")
+PG_DATABASE = os.environ.get("POSTGRES_DB_NAME")
